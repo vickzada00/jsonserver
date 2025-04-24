@@ -1,0 +1,58 @@
+{
+    "Escola": {
+        "name": "Escola Modelo",
+        "address": {
+            "street": "Rua das Flores",
+            "number": 123,
+            "city": "São Paulo",
+            "state": "SP",
+            "zipCode": "01000-000"
+        },
+        "Alunos": [
+            {
+                "id": 1,
+                "name": "João Silva",
+                "age": 14,
+                "grade": "9th",
+                "subjects": ["Matemática", "Português", "Ciências"]
+            },
+            {
+                "id": 2,
+                "name": "Maria Oliveira",
+                "age": 13,
+                "grade": "8th",
+                "subjects": ["História", "Geografia", "Inglês"]
+            }
+        ],
+        "professores": [
+            {
+                "id": 1,
+                "name": "Carlos Pereira",
+                "subject": "Matemática",
+                "experience": 10
+            },
+            {
+                "id": 2,
+                "name": "Ana Souza",
+                "subject": "Português",
+                "experience": 8
+            }
+        ],
+        "classes": [
+            {
+                "id": 1,
+                "name": "Turma A",
+                "grade": "9th",
+                "teacherId": 1,
+                "studentIds": [1]
+            },
+            {
+                "id": 2,
+                "name": "Turma B",
+                "grade": "8th",
+                "teacherId": 2,
+                "studentIds": [2]
+            }
+        ]
+    }
+}
